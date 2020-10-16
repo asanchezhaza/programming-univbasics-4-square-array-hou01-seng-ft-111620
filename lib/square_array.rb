@@ -5,8 +5,8 @@ def square_array(array)
  
   
   while counter < array.length do
- total = array[counter]*array[counter]
-  new_array.push(total)
+
+  new_array.push(array[counter]*array[counter])
     counter += 1
   end
   
